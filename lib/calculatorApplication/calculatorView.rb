@@ -3,7 +3,7 @@ class CalculatorView
  
 
   def start
-   print "$ "
+   print "Hello World!!!"
    input = gets.chomp
   end
 
