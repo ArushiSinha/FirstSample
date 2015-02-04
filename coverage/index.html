@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns='http://www.w3.org/1999/xhtml'>
   <head>
-    <title>Code coverage for Mainsample</title>
+    <title>Code coverage for Calciproject</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <script src='./assets/0.8.0/application.js' type='text/javascript'></script>    
     <link href='./assets/0.8.0/application.css' media='screen, projection, print' rel='stylesheet' type='text/css'>
@@ -14,7 +14,7 @@
       <img src="./assets/0.8.0/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2015-02-04T17:50:54+05:30">2015-02-04T17:50:54+05:30</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2015-02-04T23:50:37+05:30">2015-02-04T23:50:37+05:30</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -31,10 +31,10 @@
   </h2>
   <a name="AllFiles"></a>
   <div>
-    <b>3</b> files in total.
-    <b>15</b> relevant lines. 
-    <span class="green"><b>10</b> lines covered</span> and
-    <span class="red"><b>5</b> lines missed </span>
+    <b>4</b> files in total.
+    <b>18</b> relevant lines. 
+    <span class="green"><b>12</b> lines covered</span> and
+    <span class="red"><b>6</b> lines missed </span>
   </div>
   <table class="file_list">
     <thead>
@@ -51,7 +51,7 @@
     <tbody>
       
       <tr>
-        <td class="strong"><a href="#51567f47e5f3e61defbcb9370fe2e4a52fdcd8cc" class="src_link" title="lib/sample.rb">lib/sample.rb</a></td>
+        <td class="strong"><a href="#6bff38a8cae62439383a965731e2e4832fe423dc" class="src_link" title="lib/calculatorApplication.rb">lib/calculatorApplication.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>3</td>
         <td>3</td>
@@ -61,7 +61,7 @@
       </tr>
       
       <tr>
-        <td class="strong"><a href="#8f4e3a9ddbfaab96d3e17849ce62136e241db19c" class="src_link" title="lib/sample/sample1.rb">lib/sample/sample1.rb</a></td>
+        <td class="strong"><a href="#1f8f4cdfe415cfd6a9547916b6559cf192689595" class="src_link" title="lib/calculatorApplication/calculator.rb">lib/calculatorApplication/calculator.rb</a></td>
         <td class="red strong">50.0 %</td>
         <td>11</td>
         <td>6</td>
@@ -71,7 +71,17 @@
       </tr>
       
       <tr>
-        <td class="strong"><a href="#c0429bda214b771b6e537c832b49cac6f4eb613a" class="src_link" title="lib/sample/sample2.rb">lib/sample/sample2.rb</a></td>
+        <td class="strong"><a href="#f5a50be05af9a171ba484570968a3740001ee919" class="src_link" title="lib/calculatorApplication/calculatorView.rb">lib/calculatorApplication/calculatorView.rb</a></td>
+        <td class="red strong">66.67 %</td>
+        <td>13</td>
+        <td>3</td>
+        <td>2</td>
+        <td>1</td>
+        <td>0.7</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#b63817258d58db5e6ece42f493a72282a91d4701" class="src_link" title="lib/calculatorApplication/controller.rb">lib/calculatorApplication/controller.rb</a></td>
         <td class="red strong">66.67 %</td>
         <td>13</td>
         <td>6</td>
@@ -96,9 +106,9 @@
     
       <div class="source_files">
       
-        <div class="source_table" id="51567f47e5f3e61defbcb9370fe2e4a52fdcd8cc">
+        <div class="source_table" id="6bff38a8cae62439383a965731e2e4832fe423dc">
   <div class="header">
-    <h3>lib/sample.rb</h3>
+    <h3>lib/calculatorApplication.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
       <b>3</b> relevant lines. 
@@ -113,28 +123,28 @@
         <li class="covered" data-hits="1" data-linenumber="1">
           <span class="hits">1</span>
           
-          <code class="ruby">require &#39;sample/sample1&#39;</code>
+          <code class="ruby">require &#39;calculatorApplication/calculator&#39;</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="2">
           <span class="hits">1</span>
           
-          <code class="ruby">require &#39;sample/sample2&#39;</code>
+          <code class="ruby">require &#39;calculatorApplication/controller&#39;</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="3">
           <span class="hits">1</span>
           
-          <code class="ruby">require &#39;sample/sample2&#39;</code>
+          <code class="ruby">require &#39;calculatorApplication/calculatorView&#39;</code>
         </li>
       
     </ol>
   </pre>
 </div>
       
-        <div class="source_table" id="8f4e3a9ddbfaab96d3e17849ce62136e241db19c">
+        <div class="source_table" id="1f8f4cdfe415cfd6a9547916b6559cf192689595">
   <div class="header">
-    <h3>lib/sample/sample1.rb</h3>
+    <h3>lib/calculatorApplication/calculator.rb</h3>
     <h4><span class="red">50.0 %</span> covered</h4>
     <div>
       <b>6</b> relevant lines. 
@@ -216,9 +226,105 @@
   </pre>
 </div>
       
-        <div class="source_table" id="c0429bda214b771b6e537c832b49cac6f4eb613a">
+        <div class="source_table" id="f5a50be05af9a171ba484570968a3740001ee919">
   <div class="header">
-    <h3>lib/sample/sample2.rb</h3>
+    <h3>lib/calculatorApplication/calculatorView.rb</h3>
+    <h4><span class="red">66.67 %</span> covered</h4>
+    <div>
+      <b>3</b> relevant lines. 
+      <span class="green"><b>2</b> lines covered</span> and
+      <span class="red"><b>1</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">class View</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="3">
+          
+          
+          <code class="ruby"> </code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="4">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="5">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def start</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="6">
+          
+          
+          <code class="ruby">   puts &quot;hi&quot;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="7">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="8">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="9">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="10">
+          
+          
+          <code class="ruby">   </code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="11">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="12">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="13">
+          
+          
+          <code class="ruby"> end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+      
+        <div class="source_table" id="b63817258d58db5e6ece42f493a72282a91d4701">
+  <div class="header">
+    <h3>lib/calculatorApplication/controller.rb</h3>
     <h4><span class="red">66.67 %</span> covered</h4>
     <div>
       <b>6</b> relevant lines. 

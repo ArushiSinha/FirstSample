@@ -1,12 +1,12 @@
 {
   "RSpec": {
     "coverage": {
-      "C:/Users/arushi pc/Desktop/MainSample/lib/sample.rb": [
+      "C:/Users/arushi pc/Desktop/CalciProject/lib/calculatorApplication.rb": [
         1,
         1,
         1
       ],
-      "C:/Users/arushi pc/Desktop/MainSample/lib/sample/sample1.rb": [
+      "C:/Users/arushi pc/Desktop/CalciProject/lib/calculatorApplication/calculator.rb": [
         null,
         1,
         1,
@@ -19,7 +19,7 @@
         null,
         null
       ],
-      "C:/Users/arushi pc/Desktop/MainSample/lib/sample/sample2.rb": [
+      "C:/Users/arushi pc/Desktop/CalciProject/lib/calculatorApplication/controller.rb": [
         null,
         1,
         null,
@@ -30,11 +30,26 @@
         null,
         1,
         0,
+        null,
+        null,
+        null
+      ],
+      "C:/Users/arushi pc/Desktop/CalciProject/lib/calculatorApplication/calculatorView.rb": [
+        1,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null
       ]
     },
-    "timestamp": 1423052454
+    "timestamp": 1423074037
   }
 }

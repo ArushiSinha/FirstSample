@@ -1,4 +1,4 @@
 require 'simplecov'
 SimpleCov.start do
 end
-require 'sample'
+require 'calculatorApplication'
